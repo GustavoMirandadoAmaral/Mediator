@@ -52,9 +52,9 @@ public abstract class Funcionario {
 
     public String getInfo() {
         return getTipo() + "{" +
-                "matrícula=" + this.id +
-                ", nome='" + this.nome + '\'' +
-                ", resultado=" + this.calcularBonus() +
+                "matrícula: " + this.id +
+                ", nome: '" + this.nome + '\'' +
+                ", resultado: " + this.calcularBonus() +
                 '}';
     }
 }

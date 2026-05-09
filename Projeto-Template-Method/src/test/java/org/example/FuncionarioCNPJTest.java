@@ -29,6 +29,6 @@ class FuncionarioCNPJTest {
         funcionario.setSalarioHorasExtras(0.0f);
         funcionario.setNome("Funcionário 1");
         funcionario.setId(2);
-        assertEquals("Funcionário{matrícula=2, nome='Funcionário 1', resultado=Elegível - Bônus: R$ 1000,00}", funcionario.getInfo());
+        assertEquals("Funcionário{matrícula: 2, nome: 'Funcionário 1', resultado: Elegível - Bônus: R$ 1000,00}", funcionario.getInfo());
     }
 }

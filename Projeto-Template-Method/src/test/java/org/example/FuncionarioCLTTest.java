@@ -29,6 +29,6 @@ class FuncionarioCLTTest {
         funcionario.setSalarioHorasExtras(0.0f);
         funcionario.setNome("Funcionário 1");
         funcionario.setId(1);
-        assertEquals("Funcionário{matrícula=1, nome='Funcionário 1', resultado=Não elegível - Bônus: R$ 300,00}", funcionario.getInfo());
+        assertEquals("Funcionário{matrícula: 1, nome: 'Funcionário 1', resultado: Não elegível - Bônus: R$ 300,00}", funcionario.getInfo());
     }
 }
